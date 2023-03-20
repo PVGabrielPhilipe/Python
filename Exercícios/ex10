@@ -1,0 +1,6 @@
+#===== Exercício: 10 do curso =====
+
+di = float(input('Quantos reais você tem: '))
+do = di / 5.41
+t = do
+print('Você consegue comprar {:.2f} dolares com {} reais.'.format(t,di))
