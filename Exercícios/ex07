@@ -1,0 +1,7 @@
+#===== Exercício: 07 do curso =====
+
+n = int(input('Entre com a primeira nota: '))
+n1 = int(input('Entre com a segunda nota: '))
+s = n + n1
+m = s / 2
+print('A média é {}'.format(m))
