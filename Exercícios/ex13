@@ -1,0 +1,5 @@
+#===== Exercício: 13 do curso =====
+
+s = float(input('Entre com seu salário: '))
+ns = s + (s * 15 / 100)
+print('Seu salário R${} teve um aumento de 15%, então você ira receber R${:.2f}.'.format(s,ns))
