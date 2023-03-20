@@ -1,0 +1,16 @@
+#===== Exercício: 06 do curso =====
+
+n1 = int(input('Entre com um número: '))
+d = n1 * 2
+t = n1 * 3
+rq = n1 ** (1/2)
+print('O dobro do número é {}, o triplo é {} e a raiz quadrada é {:.2f}'.format(d,t,rq))
+
+#de um jeito mais bonito:#
+
+print('O dobro de {} vale {}. \nO triplo de {} vale {}. \nA raiz quadrada de {} é igual a {:.2f}'.format(n1,d,n1,t,n1,rq))
+
+#Outra maneira de fazer:
+
+n1 = int(input('Entre com um número: '))
+print('O dobro de {} vale {}. \nO triplo de {} vale {}. \nA raiz quadrada de {} é igual a {:2f}'.format(n1, (n1*2), n1, (n1*3), n1, (n1**(1/2))))
