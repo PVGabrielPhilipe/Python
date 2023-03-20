@@ -9,7 +9,7 @@ tot = (num1 , num2, num3, num4)
 rand = random.choice(tot)
 print('O aluno escolhido foi {}'.format(rand))
 
-#Outro jeito de fazer#
+#Outro jeito de fazer
 
 from random import choice
 n1 = str(input('Primeiro Aluno: '))
