@@ -1,4 +1,4 @@
-#===== Outro exercício: 23 do curso =====
+#===== Exercício: 23 do curso =====
 
 #Com str
 num = int(input('Informe um número: '))
