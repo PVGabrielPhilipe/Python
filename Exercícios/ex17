@@ -1,0 +1,8 @@
+#===== Exercício: 17 do curso =====
+
+import math 
+catO = (float(input('Entre com o cateto oposto: ')))
+catA = (float(input('Entre com o cateto adjacente: ')))
+calc = (catO * catO) + (catA * catA)
+hip = math.sqrt(calc)
+print('A hipotenusa desse triângulo retangulo é {:.2f}m².'.format(hip))
