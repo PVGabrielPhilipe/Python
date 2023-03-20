@@ -1,4 +1,4 @@
-#===== Outro exercício: 33 do curso =====
+#===== Exercício: 33 do curso =====
 
 a = int(input('Primeiro valor: '))
 b = int(input('Segundo valor: '))
