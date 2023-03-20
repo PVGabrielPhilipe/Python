@@ -1,4 +1,4 @@
-#===== Outro exercício: 26 do curso =====
+#===== Exercício: 26 do curso =====
 
 frase = str(input('Digite uma frase: ')).upper().strip()
 print('A letra A aparece {} vezes na frase'.format(frase.count('A')))
