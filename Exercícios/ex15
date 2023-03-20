@@ -1,0 +1,6 @@
+#===== Exercício: 15 do curso =====
+
+d = int(input('Entre com a quantidade de dias que foi alugado: '))
+km = float(input('Entre com a quantidade de Km rodados: '))
+t = (d * 60) + (km * 0.15)
+print('O total a pagar é de R${}'.format(t))
