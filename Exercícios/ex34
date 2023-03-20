@@ -1,4 +1,4 @@
-#===== Outro exercício: 34 do curso =====
+#===== Exercício: 34 do curso =====
 
 salário = float(input('Qual é o sálario do funcionário? R$'))
 if salário <= 1250:
