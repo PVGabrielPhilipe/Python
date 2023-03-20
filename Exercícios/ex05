@@ -1,0 +1,9 @@
+#===== Exercício: 05 do curso =====
+n1 = int(input('Entre com um número: '))
+su = n1 + 1
+an = n1 - 1
+print('O sucessor do número é {} e o antecessor é {}'.format(su,an))
+
+#outra forma de fazer isso é excluindo as variaveis su e an#
+
+print('O sucessor do número{} é {} e o antecessor é {}'.format(n1,(n1+1),(n1-1)))
