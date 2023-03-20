@@ -1,4 +1,4 @@
-#===== Outro exercício: 30 do curso =====
+#===== Exercício: 30 do curso =====
 
 número = int(input('Me diga um número qualquer: '))
 resultado = número % 2
