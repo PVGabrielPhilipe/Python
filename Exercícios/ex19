@@ -1,0 +1,21 @@
+#===== Exercício: 19 do curso =====
+
+import random
+num1 = (str(input('Primeiro aluno: ')))
+num2 = (str(input('Segundo aluno: ')))
+num3 = (str(input('Terceiro aluno: ')))
+num4 = (str(input('Quarto aluno: ')))
+tot = (num1 , num2, num3, num4)
+rand = random.choice(tot)
+print('O aluno escolhido foi {}'.format(rand))
+
+#Outro jeito de fazer#
+
+from random import choice
+n1 = str(input('Primeiro Aluno: '))
+n2 = str(input('Segundo Aluno: '))
+n3 = str(input('Terceiro Aluno: '))
+n4 = str(input('Quarto Aluno: '))
+lista = [n1, n2, n3, n4]
+escolhido = choice(lista)
+print('O aluno escolhido foi {}'.format(escolhido))
