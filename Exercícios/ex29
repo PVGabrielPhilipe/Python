@@ -1,4 +1,4 @@
-#===== Outro exercício: 29 do curso =====
+#===== Exercício: 29 do curso =====
 
 velocidade = float(input('Qual é a velovidade atual do carro: '))
 if velocidade > 80:
