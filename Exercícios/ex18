@@ -1,0 +1,21 @@
+#===== Exercício: 18 do curso =====
+
+import math
+ângulo = float(input('Digite o ângulo que você deseja: '))
+seno = math.sin(math.radians(ângulo))
+print('O ângulo de {} tem o Seno de {:.2f}'.format(ângulo, seno))
+cosseno = math.cos(math.radians(ângulo))
+print('O ângulo de {} tem o Cosseno de {:.2f}'.format(ângulo, cosseno))
+tangente = math.tan(math.radians(ângulo))
+print('O ângulo de {} tem a Tangente de {:.2f}'.format(ângulo, tangente))
+
+#outra forma de resolver
+import math
+ang = (float(input('Entre com um ângulo: ')))
+catO = (float(input('Entre com o cateto oposto: ')))
+catA = (float(input('Entre com o cateto adjacente: ')))
+hip = (float(input('Entre com a hipotenusa: ')))
+sen = catO / hip
+cos = catA / hip
+tan = catO / catA
+print('O valor do Seno do ângulo {}° é {:.2f}, Cosseno é {:.2f}, Tangente é {:.2f}'.format(ang,sen,cos,tan))
