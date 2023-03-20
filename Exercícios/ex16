@@ -1,0 +1,6 @@
+#===== Exercício: 16 do curso =====
+
+from math import trunc
+num = float(input('Entre com um número: '))
+inteiro = trunc(num)
+print('O número {} tem a parte Inteira {}.'.format(num, inteiro))
