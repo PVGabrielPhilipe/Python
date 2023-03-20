@@ -1,4 +1,4 @@
-#===== Outro exercício: 28 do curso =====
+#===== Exercício: 28 do curso =====
 
 from random import randint
 from time import sleep
