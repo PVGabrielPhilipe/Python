@@ -1,4 +1,4 @@
-#===== Outro exercício: 27 do curso =====
+#===== Exercício: 27 do curso =====
 
 n = str(input('Digite seu nome completo: ')).strip()
 nome = n.split()
