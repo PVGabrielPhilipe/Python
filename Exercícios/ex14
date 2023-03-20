@@ -1,0 +1,5 @@
+#===== Exercício: 14 do curso =====
+
+t = float(input('Entre com a temperatura em °C: '))
+c = ((9 * t) / 5 ) + 32
+print('A temperatura {}°C convertida para fahrenheit é {}°F.'.format(t,c))
