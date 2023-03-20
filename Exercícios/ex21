@@ -1,0 +1,12 @@
+#===== Exercício: 21 do curso =====
+
+from playsound import playsound 
+playsound('musica.mp3')
+
+#outro método
+
+import pygame
+pygame.init()
+pygame.mixer.music.load('nome da musica.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()
