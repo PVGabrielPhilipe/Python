@@ -1,4 +1,5 @@
 #===== Exercício: 36 do curso =====
+
 casa = float(input('Valor da casa: R$'))
 salário = float(input('Salário do comprador: R$'))
 anos = int(input('Quantos anos de financiamento? '))
