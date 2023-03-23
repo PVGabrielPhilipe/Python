@@ -1,0 +1,8 @@
+#===== Exercício: 46 do curso =====#
+from time import sleep
+from emoji import emojize 
+for t in range(10, -1, -1 ):
+    print(t)
+    sleep(1)
+print('BOOOM')
+print(emojize(':fireworks:'))
